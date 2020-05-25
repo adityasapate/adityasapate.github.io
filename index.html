@@ -141,9 +141,60 @@
 
 
   
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person, Blog, Project",
+  "@id": "/",
+  "name": "Aditya Sapate",
+  
+  
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Sukhdev Vihar",
+    "addressLocality": "New Delhi",
+    "addressRegion": "New Delhi",
+    "postalCode": "110025",
+    "addressCountry": "IN"
+  },
+  
+  "telephone": "9999334356",
+  "url": "/"
+}
+</script>
+
+  
 
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -1555,7 +1606,7 @@
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/test@example.org">
+      <form name="contact" method="POST" action="https://formspree.io/adityasapate@iiml.org">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -1580,7 +1631,7 @@
       
       <li>
         <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone"><a href="tel:888%20888%2088%2088">888 888 88 88</a></span>
+        <span id="person-telephone"><a href="tel:9999334356">9999334356</a></span>
       </li>
       
 
@@ -1595,15 +1646,10 @@
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">450 Serra Mall, Stanford, CA, 94305, United States</span>
+          <span id="person-address">Sukhdev Vihar, New Delhi, New Delhi, 110025, India</span>
         </li>
       
 
-      
-      <li>
-        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-        <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
-      </li>
       
 
       
@@ -1690,9 +1736,9 @@
     
     <div class="d-none">
       <input id="map-provider" value="2">
-      <input id="map-lat" value="37.4275">
-      <input id="map-lng" value="-122.1697">
-      <input id="map-dir" value="450 Serra Mall, Stanford, CA, 94305, United States">
+      <input id="map-lat" value="28.5570">
+      <input id="map-lng" value="77.2763">
+      <input id="map-dir" value="Sukhdev Vihar, New Delhi, New Delhi, 110025, India">
       <input id="map-zoom" value="15">
       <input id="map-api-key" value="">
     </div>
